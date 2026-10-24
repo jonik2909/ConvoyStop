@@ -75,3 +75,9 @@ Final frame scan decoded 641 frames from recording 07. No nearly uniform content
 - The user requested public GitHub source sharing. The public reviewer set keeps the final demo and app screenshots. Earlier raw recordings, external design-reference captures, machine-specific build logs, local editor settings and all application paperwork are excluded. A public build log replaces local home/workspace paths with neutral labels.
 - Published 179 reviewed source/evidence files to https://github.com/jonik2909/ConvoyStop with public visibility, using the account's GitHub noreply commit address. The publication scan found no credentials or applicant contact details in the committed text. Typecheck, lint and all 11 domain/API tests passed again with the required local test permissions.
 - GitHub source sharing is authorized separately from emailing the application. The signed application remains local and email submission awaits final approval. There is still no Pleos/AAOS APK or SDK integration claim.
+
+## Application delivery, 2026-10-24
+
+- After the applicant explicitly approved sending, emailed the signed official application, final iOS demo recording and public GitHub link to the official competition address.
+- Read back the sent Gmail message and verified its SENT label, recipient, both attachment filenames and byte sizes, and the GitHub link in the body. The private receipt records the message ID, timestamp and approved file hashes. No applicant paperwork, signature, contact information or mail receipt was added to the public repository.
+- This records email delivery through Gmail; organizer acknowledgement has not been recorded. The simulator and application code were not changed.
