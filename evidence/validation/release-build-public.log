@@ -1,0 +1,108 @@
+› Using --device 813D21D0-37DB-4E4C-8559-785EDCC92974
+Using src/app as the root directory for Expo Router.
+Expo Autolinking module resolution enabled
+Starting Metro Bundler
+
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+| (node:95201) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:95201) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:95201) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:95201) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:95201) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:95201) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:95201) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:95201) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+iOS Bundled 7271ms node_modules/expo-router/entry.js (1917 modules)
+Writing bundle output to: /var/folders/8g/4nz9b1_s5qs1k7h2__rdy7c00000gn/T/zgd2pfnllm/main.jsbundle
+Copying 23 asset files
+Done writing bundle output
+› Planning build
+› Executing react-native Pods/ReactNativeDependencies » [CP-User] [RNDeps] Replace React Native Dependencies for the right configuration, if needed
+› Executing react-native Pods/ReactNativeDependencies » [CP] Copy XCFrameworks
+› Preparing expo-constants Pods/EXConstants-EXConstants » ResourceBundle-EXConstants-EXConstants-Info.plist
+› Executing react-native Pods/React-Core-prebuilt » [CP-User] [RNCore] Replace React Native Core for the right configuration, if needed
+› Preparing Pods/EXConstants-ExpoConstants_privacy » ResourceBundle-ExpoConstants_privacy-EXConstants-Info.plist
+› Executing react-native Pods/React-Core-prebuilt » [CP] Copy XCFrameworks
+› Executing react-native Pods/hermes-engine » [CP-User] [Hermes] Replace Hermes for the right configuration, if needed
+› Executing react-native Pods/hermes-engine » [CP] Copy XCFrameworks
+› Preparing Pods/React-timing-React-timing_privacy » ResourceBundle-React-timing_privacy-React-timing-Info.plist
+› Preparing Pods/React-cxxreact-React-cxxreact_privacy » ResourceBundle-React-cxxreact_privacy-React-cxxreact-Info.plist
+› Executing expo-modules-jsi Pods/ExpoModulesJSI » [CP-User] Build ExpoModulesJSI xcframework
+› Executing expo-modules-jsi Pods/ExpoModulesJSI » [CP] Copy XCFrameworks
+› Executing react-native Pods/React-RCTFBReactNativeSpec » [CP-User] [RN]Check FBReactNativeSpec
+› Executing @convoy/mobile Pods/ReactCodegen » [CP-User] Generate Specs
+› Executing @convoy/mobile Pods/ReactCodegen » [Expo] Remove duplicate codegen output
+› Executing expo-modules-core Pods/ExpoModulesCore » [CP-User] [Expo] Resolve ExpoModulesCore dSYM source maps
+› Executing expo-modules-core Pods/ExpoModulesCore » [CP-User] [Expo] Switch ExpoModulesCore XCFramework for build configuration
+› Executing expo-modules-core Pods/ExpoModulesCore » [CP] Copy XCFrameworks
+› Executing expo-constants Pods/EXConstants » [CP-User] Generate app.config for prebuilt Constants.manifest
+› Executing expo-constants Pods/EXConstants » Copy generated compatibility header
+› Executing expo Pods/Expo » Copy generated compatibility header
+› Executing expo-asset Pods/ExpoAsset » Copy generated compatibility header
+› Executing expo-crypto Pods/ExpoCrypto » Copy generated compatibility header
+› Executing @expo/dom-webview Pods/ExpoDomWebView » Copy generated compatibility header
+› Preparing Pods/ExpoFileSystem-ExpoFileSystem_privacy » ResourceBundle-ExpoFileSystem_privacy-ExpoFileSystem-Info.plist
+› Executing expo-file-system Pods/ExpoFileSystem » [CP-User] [Expo] Resolve ExpoFileSystem dSYM source maps
+› Executing expo-file-system Pods/ExpoFileSystem » [CP-User] [Expo] Switch ExpoFileSystem XCFramework for build configuration
+› Executing expo-file-system Pods/ExpoFileSystem » [CP] Copy XCFrameworks
+› Executing expo-font Pods/ExpoFont » [CP-User] [Expo] Resolve ExpoFont dSYM source maps
+› Executing expo-font Pods/ExpoFont » [CP-User] [Expo] Switch ExpoFont XCFramework for build configuration
+› Executing expo-font Pods/ExpoFont » [CP] Copy XCFrameworks
+› Executing expo-glass-effect Pods/ExpoGlassEffect » Copy generated compatibility header
+› Executing expo-haptics Pods/ExpoHaptics » Copy generated compatibility header
+› Executing expo-image Pods/ExpoImage » [CP-User] [Expo] Resolve ExpoImage dSYM source maps
+› Executing expo-image Pods/ExpoImage » [CP-User] [Expo] Switch ExpoImage XCFramework for build configuration
+› Executing expo-image Pods/ExpoImage » [CP] Copy XCFrameworks
+› Executing expo-keep-awake Pods/ExpoKeepAwake » Copy generated compatibility header
+› Executing expo-linking Pods/ExpoLinking » Copy generated compatibility header
+› Executing @expo/log-box Pods/ExpoLogBox » Copy generated compatibility header
+› Executing expo-modules-core Pods/ExpoModulesWorklets » [CP-User] [Expo] Resolve ExpoModulesWorklets dSYM source maps
+› Executing expo-modules-core Pods/ExpoModulesWorklets » [CP-User] [Expo] Switch ExpoModulesWorklets XCFramework for build configuration
+› Executing expo-modules-core Pods/ExpoModulesWorklets » [CP] Copy XCFrameworks
+› Executing expo-router Pods/ExpoRouter » Copy generated compatibility header
+› Executing expo-secure-store Pods/ExpoSecureStore » Copy generated compatibility header
+› Executing expo-splash-screen Pods/ExpoSplashScreen » Copy generated compatibility header
+› Executing expo-status-bar Pods/ExpoStatusBar » Copy generated compatibility header
+› Executing expo-symbols Pods/ExpoSymbols » Copy generated compatibility header
+› Preparing Pods/ExpoSystemUI-ExpoSystemUI_privacy » ResourceBundle-ExpoSystemUI_privacy-ExpoSystemUI-Info.plist
+› Executing expo-system-ui Pods/ExpoSystemUI » Copy generated compatibility header
+› Preparing Pods/RNCAsyncStorage-RNCAsyncStorage_resources » ResourceBundle-RNCAsyncStorage_resources-RNCAsyncStorage-Info.plist
+› Compiling Pods/Pods-ConvoyStop » Pods-ConvoyStop-dummy.m
+› Packaging Pods/Pods-ConvoyStop » libPods-ConvoyStop.a
+› Compiling Pods/Pods-ConvoyStop » Pods-ConvoyStop-dummy.m
+› Packaging Pods/Pods-ConvoyStop » libPods-ConvoyStop.a
+› Executing ConvoyStop » [CP] Check Pods Manifest.lock
+› Executing ConvoyStop » [Expo] Configure project
+    The @ExpoModule class 'CoreModule' (<workspace>/node_modules/expo-modules-core/ios/Core/Modules/CoreModule.swift) is internal, so the generated modules provider cannot reference it. Declare it public to link it automatically, or use a lower access level such as private to opt it out of linking.
+› Compiling ConvoyStop » ConvoyStop_vers.c
+› Linking   ConvoyStop » ConvoyStop
+› Compiling ConvoyStop » ConvoyStop_vers.c
+› Linking   ConvoyStop » ConvoyStop
+⚠️  ignoring duplicate libraries: '-lc++'
+   └─<workspace>/apps/mobile/ios/ConvoyStop.xcodeproj: ConvoyStop: ld
+› Executing ConvoyStop » Bundle React Native code and images
+    Eager bundle does not match new options, bundling again.
+⚠️  ignoring duplicate libraries: '-lc++'
+   └─<workspace>/apps/mobile/ios/ConvoyStop.xcodeproj: ConvoyStop: ld
+› Executing ConvoyStop » [CP] Copy Pods Resources
+› Executing ConvoyStop » [CP] Embed Pods Frameworks
+› Preparing ConvoyStop » Info.plist
+› Generating debug ConvoyStop » ConvoyStop.app.dSYM
+› Signing   ConvoyStop » ConvoyStop.app
+› Build Succeeded
+
+› 0 error(s), and 4 warning(s)
+
+Waiting on http://localhost:8081
+› Installing <developer-home>/Library/Developer/Xcode/DerivedData/ConvoyStop-eqijyasqrozngwgswbccnjxhdxox/Build/Products/Release-iphonesimulator/ConvoyStop.app
+› Installing on iPhone 17 Pro
+› Opening on iPhone 17 Pro (app.convoystop.companion)
+› Opening app.convoystop.companion://?__expo_url=http%3A%2F%2F192.168.0.6%3A8081&__expo_disable_fab=1&__expo_disable_auto_launch=1&__expo_disable_onboarding=1 on iPhone 17 Pro

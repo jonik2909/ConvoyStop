@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "ConvoyStop",
+    "slug": "convoystop",
+    "scheme": "convoystop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["ios"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "app.convoystop.companion",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsLocalNetworking": true,
+          "NSAllowsArbitraryLoads": true
+        },
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#101418",
+          "image": "./assets/icon.png",
+          "imageWidth": 96,
+          "dark": { "backgroundColor": "#101418" }
+        }
+      ]
+    ],
+    "experiments": { "typedRoutes": true }
+  }
+}

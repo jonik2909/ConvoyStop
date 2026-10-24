@@ -1,0 +1,40 @@
+{
+  "name": "convoystop",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "server": "tsx watch apps/server/src/index.ts",
+    "server:start": "tsx apps/server/src/index.ts",
+    "mobile": "npm run start -w @convoy/mobile",
+    "ios": "npm run ios -w @convoy/mobile",
+    "typecheck": "tsc --noEmit && npm run typecheck -w @convoy/mobile",
+    "test": "tsx --test packages/domain/src/*.test.ts apps/server/src/*.test.ts",
+    "lint": "eslint apps/mobile/src apps/server/src packages/domain/src",
+    "verify": "npm run typecheck && npm run lint && npm test",
+    "peer": "tsx scripts/peer.ts",
+    "format": "prettier --write \"apps/mobile/src/**/*.{ts,tsx}\" \"apps/server/src/**/*.ts\" \"packages/domain/src/**/*.ts\" \"scripts/*.ts\""
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "@fastify/rate-limit": "^10.3.0",
+    "better-sqlite3": "^12.4.1",
+    "fastify": "^5.6.0",
+    "ws": "^8.18.3",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.18.0",
+    "@types/ws": "^8.18.1",
+    "eslint": "^9.38.0",
+    "prettier": "^3.9.10",
+    "tsx": "^4.20.6",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.46.0"
+  },
+  "type": "module"
+}

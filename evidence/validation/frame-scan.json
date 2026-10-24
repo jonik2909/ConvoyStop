@@ -1,0 +1,9 @@
+{
+  "recording": "evidence/recordings/07-persistent-root-release.mov",
+  "decodedFrames": 641,
+  "crop": "content below system/navigation bars",
+  "nearUniformStddevThreshold": 5,
+  "nearUniformFrames": [],
+  "minimumStddev": 14.321,
+  "note": "This is an empty-content-frame scan, not an FPS or animation-smoothness measurement."
+}

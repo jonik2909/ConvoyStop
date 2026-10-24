@@ -1,0 +1,101 @@
+
+> convoystop@1.0.0 verify
+> npm run typecheck && npm run lint && npm test
+
+
+> convoystop@1.0.0 typecheck
+> tsc --noEmit && npm run typecheck -w @convoy/mobile
+
+
+> @convoy/mobile@1.0.0 typecheck
+> tsc --noEmit
+
+
+> convoystop@1.0.0 lint
+> eslint apps/mobile/src apps/server/src packages/domain/src
+
+
+> convoystop@1.0.0 test
+> tsx --test packages/domain/src/*.test.ts apps/server/src/*.test.ts
+
+TAP version 13
+# (node:21462) [FSTDEP023] FastifyDeprecation: disableRequestLogging option is deprecated. Use the logController option with disableRequestLogging or isLogDisabled override instead. The disableRequestLogging top-level option will be removed in `fastify@6`.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:21462) [FSTDEP023] FastifyDeprecation: disableRequestLogging option is deprecated. Use the logController option with disableRequestLogging or isLogDisabled override instead. The disableRequestLogging top-level option will be removed in `fastify@6`.
+# (node:21462) [FSTDEP023] FastifyDeprecation: disableRequestLogging option is deprecated. Use the logController option with disableRequestLogging or isLogDisabled override instead. The disableRequestLogging top-level option will be removed in `fastify@6`.
+# Subtest: HTTP + WebSocket two-client lifecycle, concurrency, auth, persistence, reconnect
+ok 1 - HTTP + WebSocket two-client lifecycle, concurrency, auth, persistence, reconnect
+  ---
+  duration_ms: 245.609625
+  type: 'test'
+  ...
+# (node:21462) [FSTDEP023] FastifyDeprecation: disableRequestLogging option is deprecated. Use the logController option with disableRequestLogging or isLogDisabled override instead. The disableRequestLogging top-level option will be removed in `fastify@6`.
+# Subtest: demo actor uses real versioned commands and is unavailable in real trips
+ok 2 - demo actor uses real versioned commands and is unavailable in real trips
+  ---
+  duration_ms: 6.006125
+  type: 'test'
+  ...
+# Subtest: a car can leave and rejoin with its original device credential
+ok 3 - a car can leave and rejoin with its original device credential
+  ---
+  duration_ms: 3.052041
+  type: 'test'
+  ...
+# Subtest: ranking combines cars, hard connector and detour constraints
+ok 4 - ranking combines cars, hard connector and detour constraints
+  ---
+  duration_ms: 1.334791
+  type: 'test'
+  ...
+# Subtest: missing telemetry does not invent charge or range
+ok 5 - missing telemetry does not invent charge or range
+  ---
+  duration_ms: 0.131084
+  type: 'test'
+  ...
+# Subtest: every member must approve; handoff and arrival stay individual
+ok 6 - every member must approve; handoff and arrival stay individual
+  ---
+  duration_ms: 0.984917
+  type: 'test'
+  ...
+# Subtest: rejection closes votes; re-proposal never inherits old approvals
+ok 7 - rejection closes votes; re-proposal never inherits old approvals
+  ---
+  duration_ms: 0.18275
+  type: 'test'
+  ...
+# Subtest: membership and needs changes invalidate voting proposals
+ok 8 - membership and needs changes invalidate voting proposals
+  ---
+  duration_ms: 1.784208
+  type: 'test'
+  ...
+# Subtest: host, capacity, expiration and transitions are enforced
+ok 9 - host, capacity, expiration and transitions are enforced
+  ---
+  duration_ms: 0.19525
+  type: 'test'
+  ...
+# Subtest: leaving transfers host and removes obsolete consensus
+ok 10 - leaving transfers host and removes obsolete consensus
+  ---
+  duration_ms: 0.157417
+  type: 'test'
+  ...
+# Subtest: an older Maps attempt cannot overwrite a newer handoff
+ok 11 - an older Maps attempt cannot overwrite a newer handoff
+  ---
+  duration_ms: 0.192333
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 559.239375
